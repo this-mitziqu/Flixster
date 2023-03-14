@@ -103,6 +103,7 @@ class DetailViewController: UIViewController {
             let viewController = segue.destination as? ViewController {
                 viewController.movies = movies
                 viewController.isSimilar = true
+            viewController.navBarTitle = movie.title
                 }
     }
     

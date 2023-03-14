@@ -14,6 +14,7 @@ class ViewController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
     
     var movies: [Movie]=[]
+    var navBarTitle: String = ""
     
     var isSimilar: Bool = false
     override func viewDidLoad() {
@@ -66,6 +67,8 @@ class ViewController: UIViewController, UITableViewDataSource {
             
             // Initiate the network request
             task.resume()
+        }else{
+            self.navigationItem.title = "Similar Movies to "+navBarTitle
         }
             tableView.dataSource = self
         
