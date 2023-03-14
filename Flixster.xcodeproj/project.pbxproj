@@ -18,6 +18,8 @@
 		68AB2BFF29B6285A006020F9 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 68AB2BFE29B6285A006020F9 /* Nuke */; };
 		68AB2C0129B6D344006020F9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AB2C0029B6D344006020F9 /* DetailViewController.swift */; };
 		68AB2C0329B6F307006020F9 /* WechatIMG76.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68AB2C0229B6F306006020F9 /* WechatIMG76.jpeg */; };
+		68AB2C0E29BF5BD3006020F9 /* PostersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AB2C0D29BF5BD3006020F9 /* PostersViewController.swift */; };
+		68AB2C1229BF6099006020F9 /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AB2C1129BF6099006020F9 /* PosterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		6819F2B629B4CDD300B2C576 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		68AB2C0029B6D344006020F9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		68AB2C0229B6F306006020F9 /* WechatIMG76.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WechatIMG76.jpeg; path = Flixster/WechatIMG76.jpeg; sourceTree = "<group>"; };
+		68AB2C0D29BF5BD3006020F9 /* PostersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostersViewController.swift; sourceTree = "<group>"; };
+		68AB2C1129BF6099006020F9 /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PosterCell.swift; path = Flixster/PosterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 		6819F29429B4C0E300B2C576 = {
 			isa = PBXGroup;
 			children = (
+				68AB2C1129BF6099006020F9 /* PosterCell.swift */,
 				68AB2C0229B6F306006020F9 /* WechatIMG76.jpeg */,
 				6819F29F29B4C0E300B2C576 /* Flixster */,
 				6819F29E29B4C0E300B2C576 /* Products */,
@@ -72,6 +77,7 @@
 				6819F2A429B4C0E300B2C576 /* ViewController.swift */,
 				6819F2B629B4CDD300B2C576 /* MovieCell.swift */,
 				6819F2A629B4C0E300B2C576 /* Main.storyboard */,
+				68AB2C0D29BF5BD3006020F9 /* PostersViewController.swift */,
 				68AB2C0029B6D344006020F9 /* DetailViewController.swift */,
 				6819F2B429B4C39600B2C576 /* Movie.swift */,
 				6819F2A929B4C0E700B2C576 /* Assets.xcassets */,
@@ -161,9 +167,11 @@
 			files = (
 				6819F2A529B4C0E300B2C576 /* ViewController.swift in Sources */,
 				6819F2A129B4C0E300B2C576 /* AppDelegate.swift in Sources */,
+				68AB2C1229BF6099006020F9 /* PosterCell.swift in Sources */,
 				6819F2B529B4C39600B2C576 /* Movie.swift in Sources */,
 				68AB2C0129B6D344006020F9 /* DetailViewController.swift in Sources */,
 				6819F2B729B4CDD300B2C576 /* MovieCell.swift in Sources */,
+				68AB2C0E29BF5BD3006020F9 /* PostersViewController.swift in Sources */,
 				6819F2A329B4C0E300B2C576 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
