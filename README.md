@@ -31,8 +31,7 @@ Here's a walkthrough of implemented user stories:
 
 
 ## Notes
-
-Describe any challenges encountered while building the app.
+Poster and backdrop path could be nil. So wrap them in optional value in the struct in case of JSON decoding error.
 
 ## License
 
