@@ -31,8 +31,7 @@ Here's a walkthrough of implemented user stories:
 
 
 ## Notes
-Poster and backdrop path could be nil. So wrap them in optional value in the struct in case of JSON decoding error.
-
+Poster and backdrop path could be nil, so wrap them in optional value in the struct in case of JSON parsing error. On the other hand, don't forget to unwrap them when loading the images in the controller views. 
 ## License
 
     Copyright 2023 Mingxuan Qu
